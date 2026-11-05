@@ -7,7 +7,11 @@ authors = [
     { name = "Medha Gupta", email = "officialguptamedha@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pydantic>=2.14.3",
+    "rank-bm25>=0.2.2",
+    "scikit-learn>=1.9.1",
+]
 
 [project.scripts]
 python-aiml = "python_aiml:main"
